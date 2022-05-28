@@ -1,3 +1,3 @@
 ﻿Push-Location backend
-go run .\cmd\api\.
+air
 Pop-Location

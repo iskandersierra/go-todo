@@ -1,0 +1,31 @@
+### Get Todo Item List
+GET http://localhost:8080/todo
+
+### Get a Todo Item Details
+GET http://localhost:8080/todo/1
+
+### Create a Todo Item
+POST http://localhost:8080/todo
+Content-Type: application/json
+
+{
+  "title": "Buy Milk"
+}
+
+### Update a Todo Item
+PUT http://localhost:8080/todo/3
+Content-Type: application/json
+
+{
+  "title": "Buy Milk, actually"
+}
+
+### Mark a Todo Item as Done
+PUT http://localhost:8080/todo/3/done
+
+### Mark a Todo Item as Undone
+PUT http://localhost:8080/todo/1/undone
+
+### Delete a Todo Item
+DELETE http://localhost:8080/todo/1
+
